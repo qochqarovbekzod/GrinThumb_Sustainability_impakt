@@ -1,0 +1,3 @@
+[submodule "gRPC-Proto"]
+	path = gRPC-Proto
+	url = git@github.com:GreenThumb-Project/gRPC-Proto.git

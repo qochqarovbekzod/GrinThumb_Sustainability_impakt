@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS impact_logs (
+    id UUID DEFAULT GEN_RANDOM_UUID() PRIMARY KEY,
+    user_id UUID NOT NULL,
+    category impact_category,
+    amount DECIMAL(10, 2),
+    unit VARCHAR(20),
+    logged_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+    delted_at BIGINT DEFAULT 0
+);

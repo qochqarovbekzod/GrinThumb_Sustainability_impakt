@@ -1,0 +1,1 @@
+CREATE TYPE impact_category AS ENUM ('water_saved', 'co2_reduced', 'food_produced', 'waste_composted');
